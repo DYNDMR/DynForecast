@@ -26,3 +26,9 @@ function inputValue() {
 
     searchCity(cityName)
 }
+
+function handleKey(event) {
+    if (event.key === 'Enter') {
+        inputValue();
+    }
+}
